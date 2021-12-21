@@ -1,0 +1,162 @@
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.img-login {
+    background-color: #F7FAFC;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-login img {
+    width: 50%;
+    height: 50%;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login-part {
+    margin-top: 5.0rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-part .boas-vindas {
+    align-self: flex-start;
+}
+
+.login-part .boas-vindas h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 3.9rem;
+}
+
+.login-part .boas-vindas h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.login-part .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form div {
+    width: 100%;
+}
+
+.form div label {
+    font-size: 1.6rem;
+}
+
+.form div input {
+    width: 100%;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 1.1rem 0;
+}
+
+.form div input[placeholder] {
+    padding: 1.3rem 0 1.3rem 2.0rem;
+}
+
+.form .lembrete-senha {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.lembrete-senha div {
+    width: 50%;
+}
+
+.lembrete-senha div input {
+    width: 10%;
+}
+.lembrete-senha div label {
+    font-size: 1.4rem;
+}
+
+.lembrete-senha a {
+    font-size: 1.4rem;
+    color: #2B6CB0;
+}
+
+.form input[type="submit"] {
+    margin: 2.6rem 0 1.5rem 0;
+    width: 100%;
+    height: 5.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #04C45C;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.form .login-google {
+    width: 100%;
+    height: 5.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.form .login-google::before {
+    content: url(/image/iconfinder_Google_1298745\ 1.png);
+    margin-right: 1.1rem;
+}
+
+.cadastro {
+    font-size: 1.6rem;
+}
+
+.cadastro a {
+    color: #2B6CB0;
+}
+
+@media(max-width: 855px) {
+    .img-login {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .login-part {
+        width: 90%;
+        text-align: center;
+    }
+
+}
