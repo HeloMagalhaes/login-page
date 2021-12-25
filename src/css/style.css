@@ -117,6 +117,7 @@ section {
     font-size: 1.6rem;
     font-weight: 700;
     color: white;
+    cursor: pointer;
 }
 
 .form .login-google {
@@ -133,7 +134,7 @@ section {
 }
 
 .form .login-google::before {
-    content: url(/image/iconfinder_Google_1298745\ 1.png);
+    content: url(../image/iconfinder_Google_1298745\ 1.png);
     margin-right: 1.1rem;
 }
 
